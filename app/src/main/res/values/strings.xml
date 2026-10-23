@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Honiko</string>
+    <string name="brand">Honiko</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="refresh">تحديث</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="close">إغلاق</string>
+
+    <string name="loading">جارٍ تحميل المكتبة…</string>
+    <string name="refreshing">جارٍ التحديث…</string>
+    <string name="status_format">%1$d فيديو • %2$s</string>
+    <string name="video_count">%1$d فيديو</string>
+    <string name="connection_failed">تعذّر الاتصال</string>
+    <string name="refresh_failed">تعذّر تحديث المكتبة</string>
+
+    <string name="continue_watching">متابعة المشاهدة</string>
+    <string name="singles">فيديوهات مفردة</string>
+    <string name="episode">الحلقة %1$d</string>
+    <string name="video">فيديو</string>
+    <string name="no_videos">لا توجد فيديوهات في المكتبة بعد.\nأضف ملفات إلى مجلد الفيديوهات ثم اضغط تحديث.</string>
+    <string name="server_error_hint">تأكد أن البيسي يعمل، وأن التطبيق على نفس شبكة الواي فاي، وأن العنوان صحيح.</string>
+    <string name="unauthorized">الخادم يتطلب رمز API. أضفه من الإعدادات.</string>
+
+    <string name="settings_title">إعدادات الخادم</string>
+    <string name="settings_hint">عنوان البيسي الذي يشغّل خادم الفيديوهات. يمكنك تغييره إذا تغيّر عنوانه من الراوتر.</string>
+    <string name="server_url_label">عنوان الخادم</string>
+    <string name="server_url_hint">192.168.1.8:8090</string>
+    <string name="token_label">رمز API (اختياري)</string>
+    <string name="token_hint">اتركه فارغاً إن لم تفعّل حماية الخادم</string>
+    <string name="test_connection">اختبار الاتصال</string>
+    <string name="testing">جارٍ اختبار الاتصال…</string>
+    <string name="test_ok">متصل — %1$d فيديو (v%2$s)</string>
+    <string name="test_failed">تعذّر الاتصال: %1$s</string>
+    <string name="saved">تم الحفظ</string>
+
+    <string name="player_error_title">تعذّر تشغيل الفيديو</string>
+    <string name="player_error_message">قد لا يدعم هذا الجهاز ترميز الفيديو (%1$s).\n\nجرّب مشغّلاً خارجياً مثل VLC، أو أعد المحاولة.</string>
+    <string name="player_error_generic">حدث خطأ أثناء التشغيل.</string>
+    <string name="open_external">فتح في مشغل خارجي</string>
+    <string name="no_external_player">لا يوجد مشغّل خارجي مثبّت</string>
+    <string name="now_playing">يعرض الآن</string>
+</resources>
