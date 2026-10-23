@@ -108,6 +108,7 @@ public class MainActivity extends FragmentActivity {
                 lastLoadedAt = System.currentTimeMillis();
                 statusView.setText(getString(R.string.status_format,
                         value.videoCount, Prefs.hostLabel(MainActivity.this)));
+                boolean restoreRowsFocus = rowsContainer.hasFocus() || getCurrentFocus() == null;
                 rowsFragment.show(value);
 
                 if (value.isEmpty() || rowsFragment.isEmpty()) {
@@ -117,7 +118,7 @@ public class MainActivity extends FragmentActivity {
                 }
 
                 showRows();
-                if (firstLoad || fullScreenLoad) {
+                if (firstLoad || fullScreenLoad || restoreRowsFocus) {
                     firstLoad = false;
                     focusRows();
                 }

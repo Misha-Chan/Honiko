@@ -40,6 +40,10 @@ echo "sdk.dir=$HOME/Android/Sdk" > local.properties
 app/build/outputs/apk/debug/app-debug.apk
 ```
 
+> التوقيع: يستخدم البناء مفتاح debug ثابتاً موجوداً في `app/honiko-debug.keystore` (كلمة المرور `android`).
+> هذا يضمن أن كل نسخ APK من GitHub Actions تحمل نفس التوقيع، فتقبل التلفازات التحديث فوق النسخة السابقة.
+> المفتاح للاختبار والتثبيت الجانبي فقط، وليس للنشر على Google Play.
+
 ## التثبيت على التلفاز
 
 1. حمّل الـ APK من Artifact في GitHub Actions (أو من البناء المحلي).
