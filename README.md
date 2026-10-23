@@ -117,9 +117,19 @@ app/src/main/java/com/mishachan/honiko/
 
 ## الرفع إلى GitHub
 
+المستودع المضاف مسبقاً:
+
 ```bash
-git remote add origin https://github.com/Misha-Chan/Honiko.git
+git remote -v
+# origin  https://github.com/Misha-Chan/Honiko.git (fetch)
+# origin  https://github.com/Misha-Chan/Honiko.git (push)
+```
+
+أنشئ المستودع `Honiko` على GitHub (بدون README) ثم:
+
+```bash
 git push -u origin main
 ```
 
 سيطلب GitHub اسم المستخدم وكلمة المرور (استخدم Personal Access Token مكان كلمة المرور).
+بعد الرفع سيعمل `Build APK` تلقائياً، ويمكن تحميل الـ APK من تبويب **Actions ← Build APK ← Artifacts**.

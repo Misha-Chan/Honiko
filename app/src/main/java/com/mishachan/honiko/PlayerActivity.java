@@ -302,6 +302,22 @@ public class PlayerActivity extends AppCompatActivity {
                 case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
                     togglePlay();
                     return true;
+                case KeyEvent.KEYCODE_MEDIA_PLAY:
+                    if (player != null) {
+                        player.play();
+                    }
+                    showControls();
+                    return true;
+                case KeyEvent.KEYCODE_MEDIA_PAUSE:
+                    if (player != null) {
+                        player.pause();
+                    }
+                    showControls();
+                    return true;
+                case KeyEvent.KEYCODE_MEDIA_STOP:
+                    saveProgress(true);
+                    finish();
+                    return true;
                 case KeyEvent.KEYCODE_MEDIA_FAST_FORWARD:
                     seekBy(30_000L);
                     return true;
